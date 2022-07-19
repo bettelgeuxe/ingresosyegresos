@@ -2,8 +2,8 @@ import { Egreso } from "./egreso.model";
 
 export class EgresoServicio{
   egresos : Egreso[] = [
-    new Egreso("Arriendo", 900),
-    new Egreso("Ropa", 200)
+    new Egreso("Parqueadero", 30000),
+    new Egreso("Colegio", 150000)
   ];
 
   eliminar(egreso:Egreso){
